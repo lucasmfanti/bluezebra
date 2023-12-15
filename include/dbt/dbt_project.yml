@@ -1,0 +1,7 @@
+name: 'bz'
+
+profile: 'bz'
+
+models:
+  bz:
+    materialized: table

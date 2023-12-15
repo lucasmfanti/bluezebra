@@ -1,0 +1,12 @@
+bz:
+ target: dev
+ outputs:
+  dev:
+    type: bigquery
+    method: service-account
+    keyfile: /usr/local/airflow/include/credentials/credentials.json
+    project: your-project
+    dataset: bz
+    threads: 1
+    timeout_seconds: 300
+    location: us-east1
